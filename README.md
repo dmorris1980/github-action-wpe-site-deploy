@@ -63,6 +63,6 @@ jobs:
 
 1. [Generate a new SSH key pair](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) as a special deploy key between your Github Repo and WP Engine. The simplest method is to generate a key pair with a blank passphrase, which creates an unencrypted private key. 
 
-2. Store your private key in the GitHub repository of your website as new 'Secrets' (under your repository settings) using the names `PRIVATE_KEY_NAME` and `PUBLIC_KEY_NAME` respectively with the name in your specfic files. These can be customized, just remember to change the var in the yml file to call them correctly. 
+2. Store your private key in the GitHub repository of your website as a new 'Secret' (under your repository settings) using the name `PRIVATE_KEY_NAME` with the name in your specfic files. This can be customized, just remember to change the var in the yml file to call it correctly. 
 
 3. Add the Public SSH key to your WP Engine SSH Gateway configuration. https://wpengine.com/support/ssh-gateway/#addsshkey
