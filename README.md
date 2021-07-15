@@ -6,7 +6,7 @@ This GitHub Action can be used to deploy your WordPress repo/branch from Github 
 
 1. Create a `.github/workflows/main.yml` file in your root of your WordPress project/repo, if one doesn't exist already.
 
-2. Add the following to the `main.yml` file, replacing PRD_ENV, STG_ENV, DEV_ENV and the private key var name and branches if they were anything other than what is below. Consult "Furthur Reading" on how to setup keys in repo Secrets.
+2. Add the following to the `main.yml` file, replacing PRD_ENV, STG_ENV, DEV_ENV and the private key var name and branches if they were anything other than what is below. Consult "Further Reading" on how to setup keys in repo Secrets.
 
 3. Git push your site repo. 
 
